@@ -1,0 +1,6 @@
+@KStyleDiary_HostAddress = http://localhost:5249
+
+GET {{KStyleDiary_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
