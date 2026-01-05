@@ -1,10 +1,11 @@
-namespace KStyleDiary.DTOs;
 using System.ComponentModel.DataAnnotations;
-public class CreateLookDto
+
+namespace KStyleDiary.DTOs;
+
+public class UpdateLookDto
 {
-    [Required]
     [MaxLength(100)]
-    public string Name { get; set; } = string.Empty;
+    public string? Name { get; set; }
 
     [MaxLength(2000)]
     public string? Description { get; set; }
@@ -12,5 +13,5 @@ public class CreateLookDto
     [MaxLength(150)]
     public string? Mood { get; set; }
 
-    public bool IsPublic { get; set; } = true;
+    public bool? IsPublic { get; set; }
 }

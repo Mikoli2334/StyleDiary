@@ -12,4 +12,5 @@ public class LookDto
     public string? Mood { get; set; }
 
     public DateTime CreatingDate { get; set; }
+    public bool IsPublic { get; set; }
 }

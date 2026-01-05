@@ -14,6 +14,7 @@ public class Look
     public string? Mood { get; set; }
     public DateTime CreatingDate { get; set; }=DateTime.UtcNow;
     public int OwnerId { get; set; }
+    public bool IsPublic { get; set; } = true;
     public ICollection<LookProduct> LookProducts { get; set; } = new List<LookProduct>();
     
 }

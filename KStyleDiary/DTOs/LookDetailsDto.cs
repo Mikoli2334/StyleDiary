@@ -11,4 +11,5 @@ public class LookDetailsDto
     public DateTime CreatingDate { get; set; }
 
     public List<LookItemDto> Items { get; set; } = new();
+    public bool IsPublic { get; set; }
 }
