@@ -1,0 +1,106 @@
+{
+  "nav.public": "Publiczne",
+  "nav.login": "Logowanie",
+  "nav.adminProducts": "Admin: Produkty",
+  "nav.logout": "Wyloguj",
+  "nav.role": "Rola: {{role}}",
+
+  "publicLooks.title": "Publiczne stylizacje",
+
+  "login.title": "Logowanie",
+  "login.email": "Email",
+  "login.password": "Hasło",
+  "login.submit": "Zaloguj się",
+  "login.error.email": "Nieprawidłowy email",
+  "login.error.password": "Hasło jest za krótkie",
+
+  "adminProducts.title": "Admin: Produkty",
+  "adminProducts.createTitle": "Dodaj produkt",
+  "adminProducts.allTitle": "Lista produktów",
+
+
+  "common.loading": "Ładowanie...",
+  "common.page": "Strona",
+  "common.prev": "Wstecz",
+  "common.next": "Dalej",
+  "common.noMore": "Brak kolejnych",
+
+  "publicLooks.empty": "Brak publicznych stylizacji.",
+
+  "look.mood": "Nastrój",
+  "look.description": "Opis",
+  "look.created": "Utworzono",
+  "look.visibility": "Widoczność",
+  "look.public": "Publiczna",
+  "look.private": "Prywatna",
+
+  "nav.myLooks": "Moje stylizacje",
+
+  "myLooks.title": "Moje stylizacje",
+  "myLooks.createTitle": "Dodaj stylizację",
+  "myLooks.listTitle": "Lista moich stylizacji",
+  "myLooks.empty": "Nie masz jeszcze stylizacji.",
+  "myLooks.name": "Nazwa",
+  "myLooks.mood": "Nastrój",
+  "myLooks.description": "Opis",
+  "myLooks.isPublic": "Publiczna",
+  "myLooks.createBtn": "Dodaj",
+  "myLooks.makePublic": "Ustaw jako publiczną",
+  "myLooks.makePrivate": "Ustaw jako prywatną",
+  "myLooks.delete": "Usuń",
+  "myLooks.error.nameRequired": "Nazwa jest wymagana",
+
+
+  "nav.register": "Rejestracja",
+
+  "register.title": "Rejestracja",
+  "register.email": "Email",
+  "register.password": "Hasło",
+  "register.confirm": "Potwierdź hasło",
+  "register.submit": "Utwórz konto",
+  "register.haveAccount": "Masz już konto?",
+
+  "register.error.email": "Nieprawidłowy email",
+  "register.error.passwordLen": "Hasło musi mieć co najmniej 6 znaków",
+  "register.error.passwordMatch": "Hasła nie są takie same",
+
+  "myLooks.detailsTitle": "Szczegóły stylizacji",
+  "myLooks.selectHint": "Wybierz stylizację, aby zobaczyć szczegóły.",
+  "myLooks.editBtn": "Edytuj",
+  "myLooks.saveBtn": "Zapisz",
+  "myLooks.cancelBtn": "Anuluj",
+  "myLooks.deleteConfirm": "Usunąć tę stylizację?",
+  "myLooks.addProductTitle": "Dodaj produkt do stylizacji (Many-to-Many)",
+  "myLooks.selectProduct": "-- wybierz produkt --",
+  "myLooks.selected": "Wybrano",
+  "myLooks.usageNote": "Notatka (opcjonalnie)",
+  "myLooks.rating": "Ocena (0-5)",
+  "myLooks.addBtn": "Dodaj",
+  "myLooks.productsInLook": "Produkty w tej stylizacji",
+  "myLooks.noProducts": "Brak dodanych produktów.",
+  "myLooks.removeBtn": "Usuń",
+
+  "myLooks.error.nameMin": "Nazwa musi mieć co najmniej 2 znaki",
+  "myLooks.error.moodMax": "Nastrój jest za długi (max 50)",
+  "myLooks.error.descMax": "Opis jest za długi (max 200)",
+  "myLooks.error.selectLook": "Najpierw wybierz stylizację.",
+  "myLooks.error.selectProduct": "Wybierz produkt.",
+  "myLooks.error.ratingRange": "Ocena musi być w zakresie 0–5",
+  "myLooks.error.noteMax": "Notatka jest za długa (max 200)",
+
+
+
+  "common.create": "Dodaj",
+  "common.edit": "Edytuj",
+  "common.delete": "Usuń",
+  "common.save": "Zapisz",
+  "common.cancel": "Anuluj",
+
+
+  "common.name": "Nazwa",
+  "common.brand": "Marka",
+  "common.category": "Kategoria",
+  "common.country": "Kraj",
+  "common.price": "Cena"
+
+}

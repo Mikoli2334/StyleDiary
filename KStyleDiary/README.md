@@ -1,7 +1,10 @@
-# KStyleDiary
 
-University project for the subject **Internet Technologies**.  
-Level 1 implementation.
+# KStyle Diary – Full Stack Web Application
+
+KStyle Diary is a full-stack web application that allows users to create and manage fashion looks, assign cosmetic products to them, and share selected looks publicly.  
+The project demonstrates CRUD operations, authentication, authorization, many-to-many relationships, pagination, and internationalization.
+
+---
 
 ## Tech Stack
 - ASP.NET Core Web API
@@ -110,3 +113,74 @@ After the database is created, sample data can be inserted by executing:
 
 - `Data/db/sample-data.sql`
 
+
+## Technologies
+
+### Frontend
+- React
+- Vite
+- React Router
+- i18next (internationalization)
+- Fetch API
+
+### Backend
+- ASP.NET Core Web API
+- Entity Framework Core
+
+### Database
+- SQLite
+
+---
+
+## Application Features
+
+### General
+- Single Page Application (SPA)
+- Client-side and server-side validation
+- Pagination of lists
+- Internationalization (English / Polish)
+
+### Authentication & Authorization
+- User registration
+- User login
+- Role-based access control
+
+### User Roles
+- **Guest**
+    - View public looks
+- **User**
+    - Create, edit, delete own looks
+    - Add/remove products to/from own looks
+    - Decide if a look is public or private
+- **Admin**
+    - Create, edit, delete products
+
+### Data Model
+- **Users**
+- **Looks**
+- **Products**
+- **LookProducts** (many-to-many relationship with additional fields: `UsageNote`, `Rating`)
+
+---
+
+## Database Structure
+
+- At least 3 tables
+- Many-to-many relationship between Looks and Products
+- Different data types (string, number, boolean, datetime)
+
+Database scripts included:
+- `create_db.sql` – database schema
+- `sample_data.sql` – example data
+
+---
+
+## How to Run the Project
+
+### Backend (ASP.NET Core)
+
+1. Open the backend project in Visual Studio or Rider
+2. Update database connection string (if needed) in:
+
+```json
+appsettings.json

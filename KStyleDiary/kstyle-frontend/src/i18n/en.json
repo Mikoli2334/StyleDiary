@@ -1,0 +1,108 @@
+{
+  "nav.public": "Public",
+  "nav.login": "Login",
+  "nav.adminProducts": "Admin Products",
+  "nav.logout": "Logout",
+  "nav.role": "Role: {{role}}",
+
+  "publicLooks.title": "Public Looks",
+  "login.title": "Login",
+  "login.email": "Email",
+  "login.password": "Password",
+  "login.submit": "Login",
+  "login.error.email": "Email is invalid",
+  "login.error.password": "Password is too short",
+
+  "adminProducts.title": "Admin: Products",
+  "adminProducts.createTitle": "Create product",
+  "adminProducts.allTitle": "All products",
+
+
+  "common.loading": "Loading...",
+  "common.page": "Page",
+  "common.prev": "Prev",
+  "common.next": "Next",
+  "common.noMore": "No more items",
+
+  "publicLooks.empty": "No public looks yet.",
+
+  "look.mood": "Mood",
+  "look.description": "Description",
+  "look.created": "Created",
+  "look.visibility": "Visibility",
+  "look.public": "Public",
+  "look.private": "Private",
+
+  "nav.myLooks": "My Looks",
+
+  "myLooks.title": "My Looks",
+  "myLooks.createTitle": "Create look",
+  "myLooks.listTitle": "My looks list",
+  "myLooks.empty": "You have no looks yet.",
+  "myLooks.name": "Name",
+  "myLooks.mood": "Mood",
+  "myLooks.description": "Description",
+  "myLooks.isPublic": "Public",
+  "myLooks.createBtn": "Create",
+  "myLooks.makePublic": "Make Public",
+  "myLooks.makePrivate": "Make Private",
+  "myLooks.delete": "Delete",
+  "myLooks.error.nameRequired": "Name is required",
+
+
+  "nav.register": "Register",
+
+  "register.title": "Register",
+  "register.email": "Email",
+  "register.password": "Password",
+  "register.confirm": "Confirm password",
+  "register.submit": "Create account",
+  "register.haveAccount": "Already have an account?",
+
+  "register.error.email": "Email is invalid",
+  "register.error.passwordLen": "Password must be at least 6 characters",
+  "register.error.passwordMatch": "Passwords do not match",
+
+
+
+  "myLooks.detailsTitle": "Look details",
+  "myLooks.selectHint": "Select a look to see details.",
+  "myLooks.editBtn": "Edit look",
+  "myLooks.saveBtn": "Save",
+  "myLooks.cancelBtn": "Cancel",
+  "myLooks.deleteConfirm": "Delete this look?",
+  "myLooks.addProductTitle": "Add product to this look (Many-to-Many)",
+  "myLooks.selectProduct": "-- select product --",
+  "myLooks.selected": "Selected",
+  "myLooks.usageNote": "Usage note (optional)",
+  "myLooks.rating": "Rating (0-5)",
+  "myLooks.addBtn": "Add",
+  "myLooks.productsInLook": "Products in this look",
+  "myLooks.noProducts": "No products added yet.",
+  "myLooks.removeBtn": "Remove",
+
+  "myLooks.error.nameMin": "Name must be at least 2 characters",
+  "myLooks.error.moodMax": "Mood is too long (max 50)",
+  "myLooks.error.descMax": "Description is too long (max 200)",
+  "myLooks.error.selectLook": "Select a look first.",
+  "myLooks.error.selectProduct": "Select a product.",
+  "myLooks.error.ratingRange": "Rating must be between 0 and 5",
+  "myLooks.error.noteMax": "Usage note is too long (max 200)",
+
+
+  "common.create": "Create",
+  "common.edit": "Edit",
+  "common.delete": "Delete",
+  "common.save": "Save",
+  "common.cancel": "Cancel",
+
+
+  "common.name": "Name",
+  "common.brand": "Brand",
+  "common.category": "Category",
+  "common.country": "Country",
+  "common.price": "Price"
+
+   
+
+}
